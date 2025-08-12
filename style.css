@@ -60,5 +60,5 @@ nav ul li a:hover {
 }
 #pond{
     display: flex;
-    justify-content: center;
+    justify-content: right;
 }
