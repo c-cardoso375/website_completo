@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Gatos da net</title>
 </head>
@@ -27,22 +29,32 @@
     <div id="gatos">
     <h1>Gatos que encontrei pela net</h1>
     <section id="i1">
-        <h2>Gato pássaro</h2>
-        <img class="imagens" src="https://i.pinimg.com/736x/61/8e/08/618e08710a6617e2d6c5a4f7a975969f.jpg">
-        <p>Esta criatura foi avistada uma única vez numas montanhas no sudoeste do Canadá, em abril de 2009.</p>
-        <p>Não há mais registos da sua existência.</p>
+        <div class="card" style="width: 18rem;">
+  <img src="https://i.pinimg.com/736x/61/8e/08/618e08710a6617e2d6c5a4f7a975969f.jpg" class="card-img-top">
+  <div class="card-body">
+    <h5 class="card-title">Gato pássaro</h5>
+    <p class="card-text">Esta criatura foi avistada uma única vez numas montanhas no sudoeste do Canadá, em abril de 2009. <br> Não há mais registos da sua existência.</p>
+  </div>
     </section>
+    <br>
     <section id="i2">
-        <h2>Gato abelha</h2>
-        <img class="imagens" src="https://i.pinimg.com/736x/6e/be/b9/6ebeb901002ca1141ef6c815fee7adcf.jpg">
-        <p>Gato-abelha comum, toda a gente tem pelo menos 1 no quintal.</p>
+        <div class="card" style="width: 18rem;">
+  <img src="https://i.pinimg.com/736x/6e/be/b9/6ebeb901002ca1141ef6c815fee7adcf.jpg" class="card-img-top">
+  <div class="card-body">
+    <h5 class="card-title">Gato abelha</h5>
+    <p class="card-text">Gato-abelha comum, toda a gente tem pelo menos 1 no quintal.</p>
+  </div>
     </section>
+    <br>
     <section id="i3">
-        <h2>Gato guerreiro</h2>
-        <img class="imagens" src="https://i.pinimg.com/736x/b3/dd/92/b3dd92d6db84a0d98a86d797f27c1eea.jpg">
-        <p>Descendente direto do gato de D. Afonso Henriques, lutou lado a lado a D. Sancho 1 nas suas batalhas mais difíceis.</p>
-        <p>Conta a lenda que ele morreu depois do dono.</p>
+        <div class="card" style="width: 18rem;">
+  <img src="https://i.pinimg.com/736x/b3/dd/92/b3dd92d6db84a0d98a86d797f27c1eea.jpg" class="card-img-top">
+  <div class="card-body">
+    <h5 class="card-title">Gato guerreiro</h5>
+    <p class="card-text">Descendente direto do gato de D. Afonso Henriques, lutou lado a lado a D. Sancho 1 nas suas batalhas mais difíceis. <br> Conta a lenda que ele morreu depois do dono.</p>
+  </div>
     </section>
+    <br>
     </div>
     <div id="sugestoes">
         <h2> Deixe a sua sugestão de gato</h2>
@@ -51,7 +63,7 @@
             <input type="text" id="nome" name="nome"><br><br>
             <label for="sugestao">Sugestão:</label><br>
             <textarea id="sugestao" name="sugestao"></textarea><br>
-            <button type="submit">Enviar</button><button type="reset">Apagar</button>
+            <button type="button" class="btn btn-primary">Enviar</button>   <button type="reset" class="btn btn-primary">Apagar</button>
         </form>
     </div>
     <footer>
