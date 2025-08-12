@@ -1,0 +1,64 @@
+body{
+    background-color:beige;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+h1{
+    color: #e46666;
+}
+h2{
+    color: #3b7cf5;
+}
+.imagens{
+    height: 200px;
+    width: 200px;
+}
+#i1 .imagens{
+    border-style: dashed;
+}
+#i2 .imagens{
+    border-style: dotted;
+}
+#i3 .imagens{
+    border-style:double;
+}
+#sugestoes{
+    background-color: #a1a1a1;
+    padding: 20px;
+    border: 2px dashed #ddd;
+}
+nav ul {
+            list-style-type: none; 
+            padding: 15px; 
+            background-color: #20083f; 
+}
+nav ul li {
+            display: inline; 
+            margin-right: 5px; 
+}
+nav ul li a {
+            color: white; 
+            text-decoration: none; 
+            padding: 10px 20px; 
+            background-color: #e46666; 
+}
+nav ul li a:hover {
+            background-color: #3b7cf5; 
+}
+.hero{
+    width: 100%;
+    height: 400px;
+    background-image: url('https://i.pinimg.com/1200x/ed/7e/0d/ed7e0d6bd0f2331d668e155dcfd11cc1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.email{
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    color: #20083f;
+}
+#pond{
+    display: flex;
+    justify-content: center;
+}
