@@ -3,59 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Gatos da net</title>
 </head>
 <body>
-    <nav id="pond">
-        <ul>
-            <li>
-                <a href="index.html">Home</a>
-            </li>
-            <li>
-                <a href="#gatos">Gatos</a>
-            </li>
-            <li>
-                <a href="#sugestoes">Sugestão</a>
-            </li>
-            <li>
-                <a href="contacto.html">Contacto</a>
-            </li>
-        </ul>
-    </nav>
-    <div class="hero"></div>
-    <div id="gatos">
-    <h1>Gatos que encontrei pela net</h1>
-    <section id="i1">
-        <div class="card" style="width: 18rem;">
-  <img src="https://i.pinimg.com/736x/61/8e/08/618e08710a6617e2d6c5a4f7a975969f.jpg" class="card-img-top">
-  <div class="card-body">
-    <h5 class="card-title">Gato pássaro</h5>
-    <p class="card-text">Esta criatura foi avistada uma única vez numas montanhas no sudoeste do Canadá, em abril de 2009. <br> Não há mais registos da sua existência.</p>
-  </div>
-    </section>
-    <br>
-    <section id="i2">
-        <div class="card" style="width: 18rem;">
-  <img src="https://i.pinimg.com/736x/6e/be/b9/6ebeb901002ca1141ef6c815fee7adcf.jpg" class="card-img-top">
-  <div class="card-body">
-    <h5 class="card-title">Gato abelha</h5>
-    <p class="card-text">Gato-abelha comum, toda a gente tem pelo menos 1 no quintal.</p>
-  </div>
-    </section>
-    <br>
-    <section id="i3">
-        <div class="card" style="width: 18rem;">
-  <img src="https://i.pinimg.com/736x/b3/dd/92/b3dd92d6db84a0d98a86d797f27c1eea.jpg" class="card-img-top">
-  <div class="card-body">
-    <h5 class="card-title">Gato guerreiro</h5>
-    <p class="card-text">Descendente direto do gato de D. Afonso Henriques, lutou lado a lado a D. Sancho 1 nas suas batalhas mais difíceis. <br> Conta a lenda que ele morreu depois do dono.</p>
-  </div>
-    </section>
-    <br>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">:3</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#gatos">Gatos</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Sugestão
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#sugestoes">Form</a></li>
+            <li><a class="dropdown-item" href="contacto.html">E-mail</a></li>
+
+          </ul>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Procurar" aria-label="Search"/>
+        <button class="btn btn-outline-info" type="submit">Procurar</button>
+      </form>
     </div>
+  </div>
+</nav>
+<br>
+    <div class="hero"></div>
+    <section class="container">
+    <div class="row centrar" id="gatos" style="margin-bottom: 20px;">
+            <h1 style="text-align: center;">Gatos que encontrei pela net</h1>
+
+            <div class="card" style="width: 18rem;" >
+                <img src="https://i.pinimg.com/736x/61/8e/08/618e08710a6617e2d6c5a4f7a975969f.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Gato pássaro</h5>
+                    <p class="card-text">Esta criatura foi avistada uma única vez numas montanhas no sudoeste do Canadá, em abril de 2009. <br> Não há mais registos da sua existência.</p>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="https://i.pinimg.com/736x/6e/be/b9/6ebeb901002ca1141ef6c815fee7adcf.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Gato abelha</h5>
+                    <p class="card-text">Gato-abelha comum, toda a gente tem pelo menos 1 no quintal.</p>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="https://i.pinimg.com/736x/b3/dd/92/b3dd92d6db84a0d98a86d797f27c1eea.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Gato guerreiro</h5>
+                    <p class="card-text">Descendente direto do gato de D. Afonso Henriques, lutou lado a lado a D. Sancho 1 nas suas batalhas mais difíceis. <br> Conta a lenda que ele morreu depois do dono.</p>
+                </div>
+            </div>
+
+        
+    </div>
+    </section>
+
     <div id="sugestoes">
         <h2> Deixe a sua sugestão de gato</h2>
         <form>
@@ -63,11 +82,28 @@
             <input type="text" id="nome" name="nome"><br><br>
             <label for="sugestao">Sugestão:</label><br>
             <textarea id="sugestao" name="sugestao"></textarea><br>
-            <button type="button" class="btn btn-primary">Enviar</button>   <button type="reset" class="btn btn-primary">Apagar</button>
+            <button type="button" class="btn btn-info">Enviar</button>   <button type="reset" class="btn btn-info">Apagar</button>
         </form>
     </div>
-    <footer>
-        <p>2025 Carlos Cardoso. 99% do que é dito neste website é fictício.</p>
-    </footer>
+    <div class="container"> 
+      <footer class="py-3 my-4"> 
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3"> 
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary">Home</a>
+          </li> 
+          <li class="nav-item">
+            <a href="#gatos" class="nav-link px-2 text-body-secondary">Gatos</a>
+          </li>
+          <li class="nav-item">
+            <a href="#sugestoes" class="nav-link px-2 text-body-secondary">Sugestões</a>
+          </li> 
+          <li class="nav-item">
+            <a href="contacto.html" class="nav-link px-2 text-body-secondary">Contacto</a>
+           
+        </ul> 
+        <p class="text-center text-body-secondary">© 2025 Carlos Cardoso</p> 
+      </footer> 
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>
 </html>
