@@ -1,63 +1,48 @@
-body{
-    background-color: beige;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 20px;
+body {
+  background-color: beige;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
 }
-h1{
-    color:darkturquoise;
+h1 {
+  color: darkturquoise;
 }
-h2{
-    color: darkturquoise;
+h2 {
+  color: darkturquoise;
 }
-#sugestoes{
-    background-color: #2B3035;
-    padding: 20px;
-    border: 2px dotted #ddd;
-    color: darkturquoise;
+#sugestoes {
+  background-color: #2b3035;
+  padding: 20px;
+  border: 2px dotted #ddd;
+  color: darkturquoise;
 }
-/*nav ul {
-            list-style-type: none; 
-            padding: 15px; 
-            background-color: #20083f; 
+.hero {
+  width: 100%;
+  height: 400px;
+  background-image: url("https://i.pinimg.com/1200x/ed/7e/0d/ed7e0d6bd0f2331d668e155dcfd11cc1.jpg");
+  background-position: center;
+  background-size: cover;
 }
-nav ul li {
-            display: inline; 
-            margin-right: 5px; 
+.email {
+  font-size: larger;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  color: #20083f;
 }
-nav ul li a {
-            color: white; 
-            text-decoration: none; 
-            padding: 10px 20px; 
-            
-}*/
-.hero{
-    width: 100%;
-    height: 400px;
-    background-image: url('https://i.pinimg.com/1200x/ed/7e/0d/ed7e0d6bd0f2331d668e155dcfd11cc1.jpg');
-    background-position: center;
-    background-size: cover;
+#pond {
+  display: flex;
+  justify-content: center;
 }
-.email{
-    font-size: larger;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: bolder;
-    color: #20083f;
+.rodape {
+  display: flex;
+  align-items: end;
+  position: absolute;
 }
-#pond{
-    display: flex;
-    justify-content: center;
+.centrar {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
 }
-.rodape{
-    display: flex;
-    align-items: end;
-    position:absolute;
-}
-.centrar{
-    display: flex;
-    justify-content: center;
-    justify-content: space-around;
-    
-}
-.card{
-    padding-right: 20px;
+.card {
+  padding-right: 20px;
 }
