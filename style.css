@@ -40,6 +40,10 @@ h2 {
   justify-content: space-around;
 }
 .card{
-    padding: 0px;
+    padding: 10px;
+}
+.card-img-top{
+  width: 240px;
+  height: 220px;
 }
 
